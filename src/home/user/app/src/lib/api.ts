@@ -1,6 +1,6 @@
 import { AnimeMedia, anilistClient, ANIME_DETAILS_QUERY } from './anilist';
 
-const BASE_URL = 'https://animeapi-sage.vercel.app';
+const BASE_URL = 'https://kaido-api-six.vercel.app';
 
 const fetchWithTimeout = async (url: string, timeout = 15000): Promise<Response> => {
   const controller = new AbortController();
